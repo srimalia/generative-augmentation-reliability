@@ -1,0 +1,22 @@
+# Core numerical computing and data handling
+numpy
+pandas
+scipy
+scikit-learn
+
+# Generative model training (CGAN and CWGAN-GP)
+torch
+
+# Random oversampling and SMOTE
+imbalanced-learn
+
+# Figures and visualizations
+matplotlib
+seaborn
+
+# Statistical comparisons and Holm adjustment
+statsmodels
+
+# Jupyter notebooks (optional if running in Google Colab)
+notebook
+ipykernel
