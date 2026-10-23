@@ -1,0 +1,9 @@
+Dataset,Classifier,vs. CGAN,vs. ROS,vs. SMOTE
+Bank Marketing,MLP,+0.001 (1.000),\textbf{+0.015 (0.029)},\textbf{+0.014 (0.029)}
+Bank Marketing,RF,-0.001 (0.193),\textbf{-0.020 (0.006)},\textbf{-0.023 (0.006)}
+Credit Card Default,MLP,-0.007 (0.262),-0.006 (0.146),-0.005 (0.262)
+Credit Card Default,RF,-0.003 (0.160),\textbf{-0.011 (0.006)},\textbf{-0.013 (0.006)}
+Forest Cover Type,MLP,-0.009 (0.131),\textbf{-0.047 (0.006)},\textbf{-0.035 (0.006)}
+Forest Cover Type,RF,\textbf{-0.008 (0.037)},\textbf{-0.048 (0.006)},\textbf{-0.053 (0.006)}
+Wine Quality,MLP,-0.000 (1.000),\textbf{-0.044 (0.012)},\textbf{-0.050 (0.012)}
+Wine Quality,RF,-0.008 (0.645),-0.011 (0.645),\textbf{-0.062 (0.006)}

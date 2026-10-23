@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\caption{Weighted marginal Wasserstein discrepancy across augmentation strengths for CGAN and CWGAN-GP. Values represent mean $\pm$ standard deviation across ten random seeds. The discrepancy combines class-specific average feature-wise Wasserstein--1 distances using post-augmentation class proportions and synthetic fractions.}
+\label{tab:supp_wasserstein_sensitivity}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Method & $\lambda=0.25$ & $\lambda=0.50$ & $\lambda=0.75$ & $\lambda=1.00$ \\
+\midrule
+Bank Marketing & CGAN & $0.0322\pm0.0028$ & $0.0555\pm0.0049$ & $0.0730\pm0.0064$ & $0.0867\pm0.0076$ \\
+Bank Marketing & CWGAN-GP & $0.0246\pm0.0011$ & $0.0423\pm0.0018$ & $0.0556\pm0.0024$ & $0.0661\pm0.0028$ \\
+\midrule
+Credit Card Default & CGAN & $0.0191\pm0.0039$ & $0.0340\pm0.0070$ & $0.0460\pm0.0095$ & $0.0558\pm0.0115$ \\
+Credit Card Default & CWGAN-GP & $0.0047\pm0.0009$ & $0.0084\pm0.0016$ & $0.0114\pm0.0021$ & $0.0138\pm0.0026$ \\
+\midrule
+Forest Cover Type & CGAN & $0.0387\pm0.0021$ & $0.0562\pm0.0030$ & $0.0662\pm0.0035$ & $0.0727\pm0.0039$ \\
+Forest Cover Type & CWGAN-GP & $0.0284\pm0.0007$ & $0.0413\pm0.0010$ & $0.0486\pm0.0012$ & $0.0534\pm0.0013$ \\
+\midrule
+Wine Quality & CGAN & $0.0365\pm0.0046$ & $0.0576\pm0.0073$ & $0.0713\pm0.0091$ & $0.0809\pm0.0103$ \\
+Wine Quality & CWGAN-GP & $0.0217\pm0.0027$ & $0.0342\pm0.0042$ & $0.0423\pm0.0053$ & $0.0480\pm0.0060$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

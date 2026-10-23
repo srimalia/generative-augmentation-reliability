@@ -1,0 +1,113 @@
+Dataset,Classifier,Method,Selected_Lambda,Count
+Bank Marketing,MLP,CGAN,0.25,5
+Bank Marketing,MLP,CGAN,0.5,2
+Bank Marketing,MLP,CGAN,0.75,2
+Bank Marketing,MLP,CGAN,1.0,1
+Bank Marketing,MLP,CWGAN-GP,0.25,4
+Bank Marketing,MLP,CWGAN-GP,0.75,3
+Bank Marketing,MLP,CWGAN-GP,1.0,3
+Bank Marketing,MLP,ROS,0.25,6
+Bank Marketing,MLP,ROS,0.5,4
+Bank Marketing,MLP,SMOTE,0.25,7
+Bank Marketing,MLP,SMOTE,0.5,3
+Bank Marketing,RF,CGAN,0.5,4
+Bank Marketing,RF,CGAN,0.75,4
+Bank Marketing,RF,CGAN,1.0,2
+Bank Marketing,RF,CWGAN-GP,0.25,3
+Bank Marketing,RF,CWGAN-GP,0.5,3
+Bank Marketing,RF,CWGAN-GP,0.75,2
+Bank Marketing,RF,CWGAN-GP,1.0,2
+Bank Marketing,RF,ROS,0.25,3
+Bank Marketing,RF,ROS,0.5,2
+Bank Marketing,RF,ROS,0.75,2
+Bank Marketing,RF,ROS,1.0,3
+Bank Marketing,RF,SMOTE,0.5,1
+Bank Marketing,RF,SMOTE,0.75,4
+Bank Marketing,RF,SMOTE,1.0,5
+Credit Card Default,MLP,CGAN,0.25,2
+Credit Card Default,MLP,CGAN,0.5,3
+Credit Card Default,MLP,CGAN,0.75,3
+Credit Card Default,MLP,CGAN,1.0,2
+Credit Card Default,MLP,CWGAN-GP,0.25,2
+Credit Card Default,MLP,CWGAN-GP,0.5,4
+Credit Card Default,MLP,CWGAN-GP,0.75,3
+Credit Card Default,MLP,CWGAN-GP,1.0,1
+Credit Card Default,MLP,ROS,0.25,10
+Credit Card Default,MLP,SMOTE,0.25,9
+Credit Card Default,MLP,SMOTE,0.5,1
+Credit Card Default,RF,CGAN,0.25,2
+Credit Card Default,RF,CGAN,0.5,1
+Credit Card Default,RF,CGAN,0.75,4
+Credit Card Default,RF,CGAN,1.0,3
+Credit Card Default,RF,CWGAN-GP,0.25,3
+Credit Card Default,RF,CWGAN-GP,0.5,5
+Credit Card Default,RF,CWGAN-GP,0.75,1
+Credit Card Default,RF,CWGAN-GP,1.0,1
+Credit Card Default,RF,ROS,0.25,2
+Credit Card Default,RF,ROS,0.5,5
+Credit Card Default,RF,ROS,0.75,2
+Credit Card Default,RF,ROS,1.0,1
+Credit Card Default,RF,SMOTE,0.25,1
+Credit Card Default,RF,SMOTE,0.5,7
+Credit Card Default,RF,SMOTE,0.75,1
+Credit Card Default,RF,SMOTE,1.0,1
+Forest Cover Type,MLP,CGAN,0.25,3
+Forest Cover Type,MLP,CGAN,0.5,1
+Forest Cover Type,MLP,CGAN,0.75,3
+Forest Cover Type,MLP,CGAN,1.0,3
+Forest Cover Type,MLP,CWGAN-GP,0.25,3
+Forest Cover Type,MLP,CWGAN-GP,0.5,1
+Forest Cover Type,MLP,CWGAN-GP,0.75,3
+Forest Cover Type,MLP,CWGAN-GP,1.0,3
+Forest Cover Type,MLP,ROS,0.25,3
+Forest Cover Type,MLP,ROS,0.5,2
+Forest Cover Type,MLP,ROS,0.75,3
+Forest Cover Type,MLP,ROS,1.0,2
+Forest Cover Type,MLP,SMOTE,0.25,2
+Forest Cover Type,MLP,SMOTE,0.5,2
+Forest Cover Type,MLP,SMOTE,0.75,1
+Forest Cover Type,MLP,SMOTE,1.0,5
+Forest Cover Type,RF,CGAN,0.25,6
+Forest Cover Type,RF,CGAN,0.5,2
+Forest Cover Type,RF,CGAN,0.75,1
+Forest Cover Type,RF,CGAN,1.0,1
+Forest Cover Type,RF,CWGAN-GP,0.25,5
+Forest Cover Type,RF,CWGAN-GP,0.5,2
+Forest Cover Type,RF,CWGAN-GP,1.0,3
+Forest Cover Type,RF,ROS,0.25,4
+Forest Cover Type,RF,ROS,0.5,2
+Forest Cover Type,RF,ROS,1.0,4
+Forest Cover Type,RF,SMOTE,0.25,4
+Forest Cover Type,RF,SMOTE,0.5,2
+Forest Cover Type,RF,SMOTE,0.75,2
+Forest Cover Type,RF,SMOTE,1.0,2
+Wine Quality,MLP,CGAN,0.25,1
+Wine Quality,MLP,CGAN,0.5,6
+Wine Quality,MLP,CGAN,1.0,3
+Wine Quality,MLP,CWGAN-GP,0.25,4
+Wine Quality,MLP,CWGAN-GP,0.5,2
+Wine Quality,MLP,CWGAN-GP,0.75,2
+Wine Quality,MLP,CWGAN-GP,1.0,2
+Wine Quality,MLP,ROS,0.25,3
+Wine Quality,MLP,ROS,0.5,2
+Wine Quality,MLP,ROS,0.75,2
+Wine Quality,MLP,ROS,1.0,3
+Wine Quality,MLP,SMOTE,0.25,4
+Wine Quality,MLP,SMOTE,0.5,3
+Wine Quality,MLP,SMOTE,0.75,2
+Wine Quality,MLP,SMOTE,1.0,1
+Wine Quality,RF,CGAN,0.25,2
+Wine Quality,RF,CGAN,0.5,2
+Wine Quality,RF,CGAN,0.75,2
+Wine Quality,RF,CGAN,1.0,4
+Wine Quality,RF,CWGAN-GP,0.25,4
+Wine Quality,RF,CWGAN-GP,0.5,3
+Wine Quality,RF,CWGAN-GP,1.0,3
+Wine Quality,RF,ROS,0.25,1
+Wine Quality,RF,ROS,0.5,1
+Wine Quality,RF,ROS,0.75,4
+Wine Quality,RF,ROS,1.0,4
+Wine Quality,RF,SMOTE,0.25,1
+Wine Quality,RF,SMOTE,0.5,6
+Wine Quality,RF,SMOTE,0.75,2
+Wine Quality,RF,SMOTE,1.0,1

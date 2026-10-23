@@ -1,0 +1,49 @@
+\begin{table}[htbp]
+\centering
+\caption{Sensitivity of held-out test Macro-F1 to augmentation strength. Values represent mean $\pm$ standard deviation across ten random seeds at each fixed value of $\lambda$. These results are distinct from the validation-selected results reported in the main classification table.}
+\label{tab:supp_augmentation_sensitivity}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lllcccc}
+\toprule
+Dataset & Classifier & Method & $\lambda=0.25$ & $\lambda=0.50$ & $\lambda=0.75$ & $\lambda=1.00$ \\
+\midrule
+Bank Marketing & MLP & ROS & $0.621\pm0.008$ & $0.615\pm0.008$ & $0.603\pm0.013$ & $0.601\pm0.011$ \\
+Bank Marketing & MLP & SMOTE & $0.622\pm0.012$ & $0.611\pm0.013$ & $0.604\pm0.010$ & $0.602\pm0.009$ \\
+Bank Marketing & MLP & CGAN & $0.637\pm0.010$ & $0.632\pm0.010$ & $0.634\pm0.006$ & $0.631\pm0.009$ \\
+Bank Marketing & MLP & CWGAN-GP & $0.635\pm0.009$ & $0.636\pm0.009$ & $0.639\pm0.006$ & $0.633\pm0.007$ \\
+Bank Marketing & RF & ROS & $0.679\pm0.010$ & $0.680\pm0.008$ & $0.679\pm0.009$ & $0.678\pm0.009$ \\
+Bank Marketing & RF & SMOTE & $0.676\pm0.009$ & $0.681\pm0.010$ & $0.682\pm0.008$ & $0.684\pm0.009$ \\
+Bank Marketing & RF & CGAN & $0.660\pm0.007$ & $0.661\pm0.010$ & $0.661\pm0.009$ & $0.660\pm0.010$ \\
+Bank Marketing & RF & CWGAN-GP & $0.660\pm0.009$ & $0.659\pm0.010$ & $0.660\pm0.010$ & $0.659\pm0.010$ \\
+\midrule
+Credit Card Default & MLP & ROS & $0.689\pm0.008$ & $0.677\pm0.011$ & $0.672\pm0.008$ & $0.653\pm0.009$ \\
+Credit Card Default & MLP & SMOTE & $0.687\pm0.008$ & $0.674\pm0.007$ & $0.661\pm0.020$ & $0.650\pm0.014$ \\
+Credit Card Default & MLP & CGAN & $0.679\pm0.011$ & $0.674\pm0.015$ & $0.677\pm0.009$ & $0.680\pm0.010$ \\
+Credit Card Default & MLP & CWGAN-GP & $0.673\pm0.007$ & $0.677\pm0.012$ & $0.680\pm0.009$ & $0.679\pm0.010$ \\
+Credit Card Default & RF & ROS & $0.691\pm0.006$ & $0.694\pm0.005$ & $0.694\pm0.004$ & $0.694\pm0.005$ \\
+Credit Card Default & RF & SMOTE & $0.692\pm0.006$ & $0.694\pm0.005$ & $0.693\pm0.004$ & $0.692\pm0.005$ \\
+Credit Card Default & RF & CGAN & $0.685\pm0.007$ & $0.683\pm0.005$ & $0.685\pm0.006$ & $0.685\pm0.006$ \\
+Credit Card Default & RF & CWGAN-GP & $0.684\pm0.006$ & $0.681\pm0.006$ & $0.682\pm0.006$ & $0.683\pm0.005$ \\
+\midrule
+Forest Cover Type & MLP & ROS & $0.732\pm0.014$ & $0.731\pm0.015$ & $0.734\pm0.010$ & $0.734\pm0.014$ \\
+Forest Cover Type & MLP & SMOTE & $0.725\pm0.007$ & $0.722\pm0.011$ & $0.730\pm0.009$ & $0.728\pm0.014$ \\
+Forest Cover Type & MLP & CGAN & $0.696\pm0.017$ & $0.697\pm0.015$ & $0.698\pm0.017$ & $0.697\pm0.024$ \\
+Forest Cover Type & MLP & CWGAN-GP & $0.691\pm0.014$ & $0.681\pm0.027$ & $0.684\pm0.021$ & $0.682\pm0.022$ \\
+Forest Cover Type & RF & ROS & $0.797\pm0.011$ & $0.796\pm0.010$ & $0.795\pm0.013$ & $0.794\pm0.012$ \\
+Forest Cover Type & RF & SMOTE & $0.804\pm0.005$ & $0.802\pm0.010$ & $0.800\pm0.006$ & $0.798\pm0.004$ \\
+Forest Cover Type & RF & CGAN & $0.755\pm0.013$ & $0.756\pm0.015$ & $0.754\pm0.014$ & $0.756\pm0.015$ \\
+Forest Cover Type & RF & CWGAN-GP & $0.751\pm0.012$ & $0.746\pm0.017$ & $0.747\pm0.018$ & $0.744\pm0.018$ \\
+\midrule
+Wine Quality & MLP & ROS & $0.530\pm0.029$ & $0.523\pm0.027$ & $0.517\pm0.029$ & $0.510\pm0.035$ \\
+Wine Quality & MLP & SMOTE & $0.528\pm0.043$ & $0.514\pm0.039$ & $0.517\pm0.032$ & $0.501\pm0.026$ \\
+Wine Quality & MLP & CGAN & $0.476\pm0.048$ & $0.476\pm0.039$ & $0.478\pm0.040$ & $0.481\pm0.043$ \\
+Wine Quality & MLP & CWGAN-GP & $0.471\pm0.037$ & $0.470\pm0.037$ & $0.474\pm0.041$ & $0.472\pm0.044$ \\
+Wine Quality & RF & ROS & $0.522\pm0.033$ & $0.523\pm0.042$ & $0.524\pm0.031$ & $0.527\pm0.051$ \\
+Wine Quality & RF & SMOTE & $0.552\pm0.041$ & $0.568\pm0.031$ & $0.574\pm0.045$ & $0.566\pm0.029$ \\
+Wine Quality & RF & CGAN & $0.510\pm0.031$ & $0.508\pm0.025$ & $0.514\pm0.044$ & $0.507\pm0.035$ \\
+Wine Quality & RF & CWGAN-GP & $0.515\pm0.037$ & $0.494\pm0.036$ & $0.496\pm0.029$ & $0.500\pm0.032$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

@@ -1,0 +1,41 @@
+Dataset,Classifier,Method,N,Missing_Seeds,Complete
+Credit Card Default,RF,Real,10,,True
+Credit Card Default,RF,ROS,10,,True
+Credit Card Default,RF,SMOTE,10,,True
+Credit Card Default,RF,CGAN,10,,True
+Credit Card Default,RF,CWGAN-GP,10,,True
+Credit Card Default,MLP,Real,10,,True
+Credit Card Default,MLP,ROS,10,,True
+Credit Card Default,MLP,SMOTE,10,,True
+Credit Card Default,MLP,CGAN,10,,True
+Credit Card Default,MLP,CWGAN-GP,10,,True
+Forest Cover Type,RF,Real,10,,True
+Forest Cover Type,RF,ROS,10,,True
+Forest Cover Type,RF,SMOTE,10,,True
+Forest Cover Type,RF,CGAN,10,,True
+Forest Cover Type,RF,CWGAN-GP,10,,True
+Forest Cover Type,MLP,Real,10,,True
+Forest Cover Type,MLP,ROS,10,,True
+Forest Cover Type,MLP,SMOTE,10,,True
+Forest Cover Type,MLP,CGAN,10,,True
+Forest Cover Type,MLP,CWGAN-GP,10,,True
+Wine Quality,RF,Real,10,,True
+Wine Quality,RF,ROS,10,,True
+Wine Quality,RF,SMOTE,10,,True
+Wine Quality,RF,CGAN,10,,True
+Wine Quality,RF,CWGAN-GP,10,,True
+Wine Quality,MLP,Real,10,,True
+Wine Quality,MLP,ROS,10,,True
+Wine Quality,MLP,SMOTE,10,,True
+Wine Quality,MLP,CGAN,10,,True
+Wine Quality,MLP,CWGAN-GP,10,,True
+Bank Marketing,RF,Real,10,,True
+Bank Marketing,RF,ROS,10,,True
+Bank Marketing,RF,SMOTE,10,,True
+Bank Marketing,RF,CGAN,10,,True
+Bank Marketing,RF,CWGAN-GP,10,,True
+Bank Marketing,MLP,Real,10,,True
+Bank Marketing,MLP,ROS,10,,True
+Bank Marketing,MLP,SMOTE,10,,True
+Bank Marketing,MLP,CGAN,10,,True
+Bank Marketing,MLP,CWGAN-GP,10,,True

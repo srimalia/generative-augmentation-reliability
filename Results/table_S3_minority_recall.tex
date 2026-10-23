@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\caption{Minority-class recall across four benchmark datasets. Values represent mean $\pm$ standard deviation over ten random seeds. For augmented methods, the balancing strength is selected using validation Macro-F1.}
+\label{tab:supp_minority_recall}
+\small
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llccccc}
+\toprule
+Dataset & Classifier & Real & ROS & SMOTE & CGAN & CWGAN-GP \\
+\midrule
+Bank Marketing & MLP & $0.321\pm0.015$ & $0.352\pm0.025$ & $0.345\pm0.025$ & $0.307\pm0.024$ & $0.312\pm0.022$ \\
+Bank Marketing & RF & $0.292\pm0.013$ & $0.377\pm0.017$ & $0.400\pm0.013$ & $0.290\pm0.015$ & $0.287\pm0.018$ \\
+Credit Card Default & MLP & $0.380\pm0.031$ & $0.452\pm0.023$ & $0.459\pm0.030$ & $0.410\pm0.021$ & $0.399\pm0.021$ \\
+Credit Card Default & RF & $0.375\pm0.010$ & $0.422\pm0.014$ & $0.444\pm0.018$ & $0.380\pm0.010$ & $0.377\pm0.010$ \\
+Forest Cover Type & MLP & $0.596\pm0.097$ & $0.694\pm0.082$ & $0.672\pm0.058$ & $0.604\pm0.094$ & $0.560\pm0.073$ \\
+Forest Cover Type & RF & $0.609\pm0.060$ & $0.672\pm0.060$ & $0.787\pm0.049$ & $0.579\pm0.066$ & $0.564\pm0.085$ \\
+Wine Quality & MLP & $0.062\pm0.071$ & $0.223\pm0.092$ & $0.238\pm0.164$ & $0.038\pm0.054$ & $0.062\pm0.101$ \\
+Wine Quality & RF & $0.015\pm0.032$ & $0.031\pm0.054$ & $0.169\pm0.140$ & $0.023\pm0.037$ & $0.038\pm0.054$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
